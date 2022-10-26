@@ -20,6 +20,7 @@ function reset(){
 }
 
 function deleteAll(){
+    saveEl.textContent = "Previous Entries: "
     count = 0
     countEl.innerText = count
 }

@@ -19,3 +19,7 @@ function reset(){
     countEl.innerText = count
 }
 
+function deleteAll(){
+    count = 0
+    countEl.innerText = count
+}
